@@ -1,0 +1,10 @@
+tut0
+
+// https://stackoverflow.com/questions/45337509/failing-on-install-talib-in-windows-7
+installing ta-lib on windows
+
+zipline calls the handle_data() function once for each event. 
+
+At every call, it passes the same context variable and an event-frame called data containing the current trading bar with open, high, low, and close (OHLC) prices as well as volume for each stock in your universe.
+
+! > to put ask-bid to $context or $data var
